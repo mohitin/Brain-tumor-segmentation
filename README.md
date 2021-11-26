@@ -22,8 +22,9 @@ Datast used in this project is taken from [BraTS 2018](https://paperswithcode.co
  * Here, **N**=Number of patients, **155** denotes number of slices,**240*240** is the dimension of each slice and **4** is the number of modalities.
 * Each sequence is truncated and each slice is truncated to reduce redundant information.
 * For 3D UNet, Tensorflow data pipeline is made to minimize time complexity and to increase computational efficiency.
-<img src="https://drive.google.com/file/d/1ouHZxvtAOVzGovq03YXqNKx8JkLwpjcq/view?usp=sharing" width="250" height="250" allow="autoplay"></img>
 
+
+<img src="https://drive.google.com/uc?export=view&id=1ouHZxvtAOVzGovq03YXqNKx8JkLwpjcq" width="250" height="250" allow="autoplay"></img>
 
 # Techniques used:
 * 2D UNet Model
