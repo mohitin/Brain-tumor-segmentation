@@ -21,6 +21,6 @@ Datast used in this project is taken from [BraTS 2018](https://paperswithcode.co
 * Each modalities initially contains sequence with some random dimensiom which is converted into desired format i.e. (X,155,240,240,4)
  * Here, **N**=Number of patients, **155** denotes number of slices,**240*240** is the dimension of each slice and **4** is the number of modalities.
 * Each sequence is truncated and each slice is truncated to reduce redundant information.
-* For 3D UNet, Tensorflow data pipeline is made to minimize time complexity.
+* For 3D UNet, Tensorflow data pipeline is made to minimize time complexity since computational power.
 
 
