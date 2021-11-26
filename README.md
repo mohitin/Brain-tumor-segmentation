@@ -17,10 +17,16 @@ Glioma brain tumors are the most common primary brain malignancies, with differe
 
 # Dataset and data preprocessing
 Datast used in this project is taken from [BraTS 2018](https://paperswithcode.com/dataset/brats-2018-1) challenge. Dataset contains sequences of 210 HGG patients and 75 LGG patients. 
-* Each Sequence contains Four different modalities given as T1, T2, T1(Contrast enhanced) and FLAIR(Fluid attenuated inversion recovery).
+* Each Sequence contains Four different modalities given as T1, T2, T1(Contrast enhanced) and FLAIR(Fluid attenuated inversion recovery) as shown in figure below.
 * Each modalities initially contains sequence with some random dimensiom which is converted into desired format i.e. (X,155,240,240,4)
  * Here, **N**=Number of patients, **155** denotes number of slices,**240*240** is the dimension of each slice and **4** is the number of modalities.
 * Each sequence is truncated and each slice is truncated to reduce redundant information.
-* For 3D UNet, Tensorflow data pipeline is made to minimize time complexity since computational power.
+* For 3D UNet, Tensorflow data pipeline is made to minimize time complexity and to increase computational efficiency.
+<img src="https://drive.google.com/file/d/1ouHZxvtAOVzGovq03YXqNKx8JkLwpjcq/view?usp=sharing" width="250" height="250" allow="autoplay"></img>
 
 
+# Techniques used:
+* 2D UNet Model
+* 3D UNet model
+
+The detailed documentation, results, conclusions, etc. and code of this project herewith this repository.
