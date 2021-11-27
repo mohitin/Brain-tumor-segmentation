@@ -30,4 +30,4 @@ Datast used in this project is taken from [BraTS 2018](https://paperswithcode.co
 * 2D UNet Model
 * 3D UNet model
 
-The detailed documentation, results, conclusions, etc. and code of this project herewith this repository.
+The detailed documentation, results, conclusions, etc. and code of this project attached herewith this repository.
